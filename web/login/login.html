@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>船舶代理系统</title>
+		
+		<link rel="stylesheet" href="style.css" type="text/css" />
+	</head>
+	
+	<body>
+		<div id="container">
+			<form action="/shipagent/login" method="post">
+				<div class="login">LOGIN</div>
+				<div class="username-text">Username</div>
+				<div class="password-text">Password</div>
+				
+				<div class="username-field">
+					<input type="text" name="username" value="username" />
+				</div>
+				<div class="password-field">
+					<input type="password" name="password" value="password" />
+				</div>
+				
+				<input type="checkbox" name="remember-me" id="remember-me" /><label for="remember-me">Remember me</label>
+				
+				<div class="forgot-usr-pwd">Forgot<a href="#"> username</a> or <a href="#">password</a>?</div>
+				
+				<input type="submit" name="submit" value="GO" />
+			</form>
+			
+			<div id="footer">
+				Copyright &copy 2016. Autor Jimmy All rights reserved.
+			</div>
+		</div>
+		
+	</body>
+</html>
