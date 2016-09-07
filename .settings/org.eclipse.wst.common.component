@@ -5,7 +5,7 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
         <wb-resource deploy-path="/" source-path="/web"/>
-        <property name="context-root" value="shipagent-enterprise"/>
         <property name="java-output-path" value="/shipagent-enterprise/target/classes"/>
+        <property name="context-root" value="/"/>
     </wb-module>
 </project-modules>
